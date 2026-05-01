@@ -1,0 +1,28 @@
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Editor artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets and credentials — never commit these
+.env
+*.key
+*.pem
+*.secret
+credentials.json
+
+# Local draft files
+_drafts/
+*.draft.md
+
+# Export artifacts
+_export/
+*.pdf
+*.docx
+
+# Node (if tooling is added)
+node_modules/
